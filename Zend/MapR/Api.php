@@ -28,7 +28,7 @@ class Zend_MapR_Api
     /**
     * Instance
     * 
-    * @var MapR_Api
+    * @var Zend_MapR_Api
     */
     private static $_instance;
     
@@ -44,12 +44,12 @@ class Zend_MapR_Api
     
     /**
     * Get instance
-    * @return MapR_Api
+    * @return Zend_MapR_Api
     */
     public static function getInstance()
     {
         if (self::$_instance === null) {
-            self::$_instance = new MapR_Api();
+            self::$_instance = new Zend_MapR_Api();
         }
         return self::$_instance;
     }
