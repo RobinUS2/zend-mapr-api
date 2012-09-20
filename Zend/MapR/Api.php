@@ -58,7 +58,7 @@ class Zend_MapR_Api
     * Set API url 
     * 
     * @param mixed $url
-    * @return MapR_Api
+    * @return Zend_Mapr_Api
     */
     public function setApiUrl($url)
     {
@@ -71,7 +71,7 @@ class Zend_MapR_Api
     * 
     * @param mixed $user
     * @param mixed $password
-    * @return MapR_Api
+    * @return Zend_Mapr_Api
     */
     public function setAuth($user, $password)
     {
